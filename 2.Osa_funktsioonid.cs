@@ -9,16 +9,15 @@ namespace Naidis_IKTpv25
     {
         public static string Juku(string nimi)
         {
-            string vastus;
+            string vastus = "";
             string pilet = "";
             if (nimi.ToLower() == "juku")
             {
-                Console.WriteLine("Me läheme kinno Jukuga");
                 try
                 {
                     System.Console.Write("Kui vana Juku on: ");
                     byte vanus = byte.Parse(Console.ReadLine());
-                    if (vanus < 0 && vanus > 100)
+                    if (vanus > 0 && vanus < 100)
                     {
                         switch (vanus)
                         {
@@ -35,7 +34,7 @@ namespace Naidis_IKTpv25
                                 pilet = "sooduspilet";
                                 break;
                         }
-                    vastus = $"{nimi.ToUpperInvariant()}, me läheme kinno, sul on vaja {pilet}";
+                    vastus = $"{nimi.ToUpper()}, me läheme kinno, sul on vaja {pilet}";
                     }
                     else
                     {

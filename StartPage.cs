@@ -49,15 +49,15 @@ namespace Naidis_IKTpv25
             //         Console.WriteLine(e);
             //     }    
             // }         
-            Random rnd = new Random();
-            int juhuslik_arv = rnd.Next(-5, 25);
-            System.Console.WriteLine(juhuslik_arv);
-            Console.WriteLine(Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv));
-            juhuslik_arv = rnd.Next(-5, 25);
-            System.Console.WriteLine(juhuslik_arv);
-            tekst = Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv);
-            System.Console.WriteLine(tekst);
-            
+            // Random rnd = new Random();
+            // int juhuslik_arv = rnd.Next(-5, 25);
+            // System.Console.WriteLine(juhuslik_arv);
+            // Console.WriteLine(Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv));
+            // juhuslik_arv = rnd.Next(-5, 25);
+            // System.Console.WriteLine(juhuslik_arv);
+            // tekst = Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv);
+            // System.Console.WriteLine(tekst);
+            System.Console.WriteLine(TeineOsa_funktsioonid.Juku(nimi));
         }
     }
 }
