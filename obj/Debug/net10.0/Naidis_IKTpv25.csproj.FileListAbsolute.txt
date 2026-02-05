@@ -1,0 +1,14 @@
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\bin\Debug\net10.0\Naidis_IKTpv25.exe
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\bin\Debug\net10.0\Naidis_IKTpv25.deps.json
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\bin\Debug\net10.0\Naidis_IKTpv25.runtimeconfig.json
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\bin\Debug\net10.0\Naidis_IKTpv25.dll
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\bin\Debug\net10.0\Naidis_IKTpv25.pdb
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.AssemblyInfoInputs.cache
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.AssemblyInfo.cs
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.csproj.CoreCompileInputs.cache
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.dll
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\refint\Naidis_IKTpv25.dll
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.pdb
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.genruntimeconfig.cache
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\ref\Naidis_IKTpv25.dll

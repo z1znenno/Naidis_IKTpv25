@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Naidis_IKTpv25/1.0.0": {
+        "runtime": {
+          "Naidis_IKTpv25.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Naidis_IKTpv25/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
