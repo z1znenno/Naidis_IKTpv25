@@ -16,8 +16,8 @@ namespace Naidis_IKTpv25
             string tekst = "Tere tulemast C#'i maailma";
             // System.Console.WriteLine($"Oli loodud muutuja tekst, mis võrdub: {tekst}");
             // System.Console.WriteLine("Oli loodud muutuja tekst, mis võrdub: {0}", tekst);
-            Console.Write("Mis on sinu nimi: ");
-            string nimi = Console.ReadLine();
+            // Console.Write("Mis on sinu nimi: ");
+            // string nimi = Console.ReadLine();
             // while (true)
             // {
             //     try
@@ -57,7 +57,57 @@ namespace Naidis_IKTpv25
             // System.Console.WriteLine(juhuslik_arv);
             // tekst = Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv);
             // System.Console.WriteLine(tekst);
-            System.Console.WriteLine(TeineOsa_funktsioonid.Juku(nimi));
+
+
+            // System.Console.WriteLine(TeineOsa_funktsioonid.Juku(nimi));
+
+
+            // TeineOsa_funktsioonid.Pinginaaber();
+
+
+            // TeineOsa_funktsioonid.PorandRemont();
+
+
+            // while (true)
+            // {
+            //     try
+            //     {
+            //             System.Console.Write("Sisestage hind soodustusega 30%: ");
+            //             float hind = float.Parse(Console.ReadLine());
+            //             float alghind = TeineOsa_funktsioonid.AlgHind(hind);
+            //             System.Console.WriteLine($"Alghind on: {Math.Round(alghind, 2)} €");
+            //             break;
+            //     }
+            //     catch (System.FormatException)
+            //     {
+            //         System.Console.WriteLine("Sisestage number, mitte tekst\nVõi proovige ',' asemel '.'");
+            //     }
+            // }
+
+
+            // while (true)
+            // {
+            //     try
+            //     {
+            //             System.Console.Write("Sisestage toatemperatuur: ");
+            //             float temperatuur = float.Parse(Console.ReadLine());
+            //             string Recommend = TeineOsa_funktsioonid.Temperatuur(temperatuur);
+            //             System.Console.WriteLine(Recommend);
+            //             break;
+            //     }
+            //     catch (System.FormatException)
+            //     {
+            //         System.Console.WriteLine("Sisestage number, mitte tekst\nVõi proovige ',' asemel '.'");
+            //     }
+
+
+            // System.Console.WriteLine(TeineOsa_funktsioonid.InimesePikkus());
+
+
+            // TeineOsa_funktsioonid.InimesePikkusSugu();
+
+
+            
         }
     }
 }
