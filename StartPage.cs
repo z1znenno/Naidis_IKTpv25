@@ -18,37 +18,45 @@ namespace Naidis_IKTpv25
             // System.Console.WriteLine("Oli loodud muutuja tekst, mis võrdub: {0}", tekst);
             Console.Write("Mis on sinu nimi: ");
             string nimi = Console.ReadLine();
-            while (true)
-            {
-                try
-                {
-                    Console.Write("Kui vana sa oled: ");
-                    byte vanus = Convert.ToByte(Console.ReadLine());
-                    System.Console.WriteLine($"Tere, {nimi}. Sa oled {vanus} aastat vana!");
-                    break;  
-                }
-                catch (Exception e)
-                {
-                    System.Console.WriteLine(e);
-                }
-            }
-            while (true)
-            {
-                try
-                {
-                    System.Console.Write("Sisestage arv 1: ");
-                    float a = float.Parse(Console.ReadLine());
-                    System.Console.Write("Sisestage arv 2:");
-                    float b = float.Parse(Console.ReadLine());
-                    float res = Naidis_funktsioonid.Summa(a, b);
-                    System.Console.WriteLine(res);
-                    break;
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                }    
-            }         
+            // while (true)
+            // {
+            //     try
+            //     {
+            //         Console.Write("Kui vana sa oled: ");
+            //         byte vanus = Convert.ToByte(Console.ReadLine());
+            //         System.Console.WriteLine($"Tere, {nimi}. Sa oled {vanus} aastat vana!");
+            //         break;  
+            //     }
+            //     catch (Exception e)
+            //     {
+            //         System.Console.WriteLine(e);
+            //     }
+            // }
+            // while (true)
+            // {
+            //     try
+            //     {
+            //         System.Console.Write("Sisestage arv 1: ");
+            //         float a = float.Parse(Console.ReadLine());
+            //         System.Console.Write("Sisestage arv 2:");
+            //         float b = float.Parse(Console.ReadLine());
+            //         float res = Naidis_funktsioonid.Summa(a, b);
+            //         System.Console.WriteLine(res);
+            //         break;
+            //     }
+            //     catch (Exception e)
+            //     {
+            //         Console.WriteLine(e);
+            //     }    
+            // }         
+            Random rnd = new Random();
+            int juhuslik_arv = rnd.Next(-5, 25);
+            System.Console.WriteLine(juhuslik_arv);
+            Console.WriteLine(Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv));
+            juhuslik_arv = rnd.Next(-5, 25);
+            System.Console.WriteLine(juhuslik_arv);
+            tekst = Naidis_funktsioonid.Kuu_nimetus(juhuslik_arv);
+            System.Console.WriteLine(tekst);
             
         }
     }

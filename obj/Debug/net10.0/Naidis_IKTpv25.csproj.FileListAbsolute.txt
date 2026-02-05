@@ -12,3 +12,4 @@ C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\refint\Naidis_IKTpv25
 C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.pdb
 C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.genruntimeconfig.cache
 C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\ref\Naidis_IKTpv25.dll
+C:\Users\User\CSProjeckts\Naidis_IKTpv25\obj\Debug\net10.0\Naidis_IKTpv25.sourcelink.json
