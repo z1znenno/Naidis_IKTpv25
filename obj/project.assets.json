@@ -8,31 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\olegb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olegb\\C#Projects\\Naidis_IKTpv25\\Naidis_IKTpv25.csproj",
+      "projectUniqueName": "C:\\Users\\User\\CSProjeckts\\Naidis_IKTpv25\\Naidis_IKTpv25.csproj",
       "projectName": "Naidis_IKTpv25",
-      "projectPath": "C:\\Users\\olegb\\C#Projects\\Naidis_IKTpv25\\Naidis_IKTpv25.csproj",
-      "packagesPath": "C:\\Users\\olegb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olegb\\C#Projects\\Naidis_IKTpv25\\obj\\",
+      "projectPath": "C:\\Users\\User\\CSProjeckts\\Naidis_IKTpv25\\Naidis_IKTpv25.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\CSProjeckts\\Naidis_IKTpv25\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\olegb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

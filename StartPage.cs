@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Timers;
 
 namespace Naidis_IKTpv25
 {
@@ -105,9 +108,71 @@ namespace Naidis_IKTpv25
 
 
             // TeineOsa_funktsioonid.InimesePikkusSugu();
-
-
+            // System.Console.WriteLine("3. Osa. Kordused ja Listid, massivid");
+            // for (int i = 0; i < 10; i++)
+            // {
+            //     System.Console.WriteLine($"Tere, {i + 1}");
+            // }
+            // System.Console.WriteLine("While: ");
+            // int j = 0;
+            // while (j < 10)
+            // {
+            //     System.Console.WriteLine($"Tere, {j + 1}");
+            //     j++;
+            // }
+            // System.Console.WriteLine("Do while: ");
+            // do
+            // {
+            //     System.Console.WriteLine($"Tere, {j}");
+            //     j--;
+            // }
+            // while(j != 0);
             
+            int[] arvud = new int[5];
+            for(int i = 0; i < arvud.Length; i++)
+            {
+                System.Console.Write($"Sisesta {i + 1}. arv: ");
+                try
+                {
+                    arvud[i] = int.Parse(System.Console.ReadLine());
+                }
+                catch (Exception e)
+                {
+                    System.Console.WriteLine(e);
+                }
+            }
+            // System.Console.WriteLine("Foreach abil: ");
+            // foreach (int arv in arvud)
+            // {
+            //     System.Console.WriteLine($"Sisestatud arv: {arv}");
+            // }
+            // System.Console.WriteLine("For abil");
+            // for(int i = 0; i < arvud.Length; i++)
+            // {
+            //     System.Console.WriteLine($"Sisestatud arv: {arvud[i]}");
+            // }
+            // System.Console.WriteLine("For abil: viimane -> esimene");
+            // for (int i = arvud.Length - 1; i > -1; i--)
+            // {
+            //     System.Console.WriteLine($"Sisestatud arv: {arvud[i]}");
+            // }
+            //Kusi mis potsioonil muuda element ja mis vaartuseks, muuda element ja kuva massiiv
+            System.Console.Write("Sisestage mis element tahate muuda (1-5)");
+            try
+            {
+                int el = int.Parse(Console.ReadLine());
+                System.Console.Write("Sisestage mida tahate panna sellisse elemendisse: ");
+                int number = int.Parse(System.Console.ReadLine());
+                arvud[el - 1] = number;
+            }
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e);
+            }
+            foreach (int el in arvud)
+            {
+                System.Console.WriteLine(el);
+            }
         }
     }
 }
