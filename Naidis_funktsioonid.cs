@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using System.Text;
 
 namespace Naidis_IKTpv25
@@ -58,6 +59,63 @@ namespace Naidis_IKTpv25
                 hoo = "???";  
             }
                 return hoo;
+        }
+        public static void Muuda_Element_Massiivis(int[] arvud)
+        {
+            System.Console.Write("Sisestage mis element tahate muuda (1-5)");
+            try
+            {
+                int el = int.Parse(Console.ReadLine());
+                System.Console.Write("Sisestage mida tahate panna sellisse elemendisse: ");
+                int number = int.Parse(System.Console.ReadLine());
+                arvud[el - 1] = number;
+            }
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e);
+            }
+            foreach (int el in arvud)
+            {
+                System.Console.WriteLine(el);
+            }
+        }
+        public static int[] Taida_Massiiv(int[] arvud)
+        {
+            for(int i = 0; i < arvud.Length; i++)
+            {
+                System.Console.Write($"Sisesta {i + 1}. arv: ");
+                try
+                {
+                    arvud[i] = int.Parse(System.Console.ReadLine());
+                }
+                catch (Exception e)
+                {
+                    System.Console.WriteLine(e);
+                }
+            }
+            return arvud;
+        }
+        public static void Kuva_Massiiv_For_Abil(int[] arvud)
+        {
+            for(int i = 0; i < arvud.Length; i++)
+            {
+                System.Console.WriteLine($"Sisestatud arv: {arvud[i]}");
+            }
+        }
+        public static void Kuva_Massiiv_Foreach_Abil(int[] arvud)
+        {
+            foreach (int arv in arvud)
+            {
+                System.Console.WriteLine($"Sisestatud arv: {arv}");
+            }
+        }
+        public static void Kuva_Massiiv_For_Abil_Reserved(int[] arvud)
+        {
+            System.Console.WriteLine("For abil: viimane -> esimene");
+            for (int i = arvud.Length - 1; i > -1; i--)
+            {
+                System.Console.WriteLine($"Sisestatud arv: {arvud[i]}");
+            }
         }
     }
 }

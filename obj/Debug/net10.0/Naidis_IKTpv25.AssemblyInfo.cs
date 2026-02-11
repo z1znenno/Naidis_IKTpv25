@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naidis_IKTpv25")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b60b026fdea471d1538f71f335d830d58ca7993e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e47eb1d615659c5a38b69ad88596a4a81d5f082d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naidis_IKTpv25")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naidis_IKTpv25")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

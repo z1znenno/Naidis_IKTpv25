@@ -129,18 +129,18 @@ namespace Naidis_IKTpv25
             // while(j != 0);
             
             int[] arvud = new int[5];
-            for(int i = 0; i < arvud.Length; i++)
-            {
-                System.Console.Write($"Sisesta {i + 1}. arv: ");
-                try
-                {
-                    arvud[i] = int.Parse(System.Console.ReadLine());
-                }
-                catch (Exception e)
-                {
-                    System.Console.WriteLine(e);
-                }
-            }
+            // for(int i = 0; i < arvud.Length; i++)
+            // {
+            //     System.Console.Write($"Sisesta {i + 1}. arv: ");
+            //     try
+            //     {
+            //         arvud[i] = int.Parse(System.Console.ReadLine());
+            //     }
+            //     catch (Exception e)
+            //     {
+            //         System.Console.WriteLine(e);
+            //     }
+            // }
             // System.Console.WriteLine("Foreach abil: ");
             // foreach (int arv in arvud)
             // {
@@ -157,21 +157,50 @@ namespace Naidis_IKTpv25
             //     System.Console.WriteLine($"Sisestatud arv: {arvud[i]}");
             // }
             //Kusi mis potsioonil muuda element ja mis vaartuseks, muuda element ja kuva massiiv
-            System.Console.Write("Sisestage mis element tahate muuda (1-5)");
-            try
+            // System.Console.Write("Sisestage mis element tahate muuda (1-5)");
+            // try
+            // {
+            //     int el = int.Parse(Console.ReadLine());
+            //     System.Console.Write("Sisestage mida tahate panna sellisse elemendisse: ");
+            //     int number = int.Parse(System.Console.ReadLine());
+            //     arvud[el - 1] = number;
+            // }
+            // catch (Exception e)
+            // {
+            //     System.Console.WriteLine(e);
+            // }
+            // foreach (int el in arvud)
+            // {
+            //     System.Console.WriteLine(el);
+            // }
+            // Naidis_funktsioonid.Taida_Massiiv(arvud);
+            // Naidis_funktsioonid.Muuda_Element_Massiivis(arvud);
+            // Naidis_funktsioonid.Kuva_Massiiv_Foreach_Abil(arvud);
+            // Naidis_funktsioonid.Kuva_Massiiv_For_Abil(arvud);
+            // Naidis_funktsioonid.Kuva_Massiiv_For_Abil_Reserved(arvud);
+
+            List<Isik> inimesed = new List<Isik>();
+
+            for (int i = 0; i < 3; i++)
             {
-                int el = int.Parse(Console.ReadLine());
-                System.Console.Write("Sisestage mida tahate panna sellisse elemendisse: ");
-                int number = int.Parse(System.Console.ReadLine());
-                arvud[el - 1] = number;
+                Console.Write("Sisesta nimi: ");
+                string nimi = Console.ReadLine();
+
+                Console.Write("Sisesta vanus: ");
+                int vanus = int.Parse(Console.ReadLine());
+
+                Isik uusIsik = new Isik();
+                uusIsik.Nimi = nimi;
+                uusIsik.Vanus = vanus;
+
+                inimesed.Add(uusIsik);
             }
-            catch (Exception e)
+
+            Console.WriteLine("\nKõik inimesed tervitavad:\n");
+
+            foreach (Isik isik in inimesed)
             {
-                System.Console.WriteLine(e);
-            }
-            foreach (int el in arvud)
-            {
-                System.Console.WriteLine(el);
+                isik.Tervita();
             }
         }
     }
