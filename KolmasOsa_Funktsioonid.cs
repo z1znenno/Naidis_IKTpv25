@@ -29,30 +29,17 @@ namespace Naidis_csharp
             }
 
         }
-        public static void arvuAnaluus()
+        public static Tuple<double, double, double> arvuAnaluus(double[] arvud)
         {
-            double sum = 0;
+            double summa = arvud.Sum();
+            double keskmine = arvud.Average();
             double korrutis = 1;
-            double keskmine = 0;
-            double[] arvud = new double[5];
-            for (int i = 0; i < arvud.Length; i++)
+
+            foreach (double arv in arvud)
             {
-                Console.Write($"Sisesta {i + 1}. arv: ");
-                arvud[i] = double.Parse(Console.ReadLine());
-                korrutis *= arvud[i];
-                sum += arvud[i];
-
+                korrutis *= arv;
             }
-
-            keskmine = sum / arvud.Length;
-
-            string tulemus = string.Join(", ", arvud);
-            Console.WriteLine($"Sa sisetatud: {tulemus}");
-            Console.WriteLine($"Sum: {sum}");
-            Console.WriteLine($"Korrutis: {korrutis}");
-            Console.WriteLine($"Keskmine: {keskmine}");
-
-
+            return Tuple.Create(summa, keskmine, korrutis);
         }
 
 

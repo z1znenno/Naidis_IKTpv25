@@ -95,6 +95,23 @@ namespace Naidis_IKTpv25
             }
             return arvud;
         }
+        public static double[] Taida_Massiiv_double(double[] arvud)
+        {
+            for(int i = 0; i < arvud.Length; i++)
+            {
+                System.Console.Write($"Sisesta {i + 1}. arv: ");
+                try
+                {
+                    arvud[i] = double.Parse(System.Console.ReadLine());
+                }
+                catch (Exception e)
+                {
+                    System.Console.WriteLine(e);
+                }
+            }
+            return arvud;
+        }
+
         public static void Kuva_Massiiv_For_Abil(int[] arvud)
         {
             for(int i = 0; i < arvud.Length; i++)

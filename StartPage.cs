@@ -202,6 +202,7 @@ namespace Naidis_IKTpv25
             {
                 isik.Tervita();
             }
+            double[] arvud = Naidis_funktsioonid.Taida_Massiiv
         }
     }
 }
