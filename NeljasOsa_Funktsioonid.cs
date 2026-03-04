@@ -4,7 +4,7 @@ namespace Naidis_IKTpv25
 {
     class NeljasOsa_Finktsioonid
     {
-        public static void Faili_kirjutamine()
+         public static void Faili_kirjutamine()
         {
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Kuud.txt"); //@"..\..\..\Kuud.txt"
             try
@@ -58,6 +58,28 @@ namespace Naidis_IKTpv25
             catch (Exception)
             {
                 Console.WriteLine("Viga failiga!");
+            }
+        }
+        public static void Listi_muutmine_ja_kuvamine()
+        {
+            List<string> kuude_list = new List<string>();
+            foreach (string kuu in kuude_list)
+            {
+                Console.WriteLine(kuu);
+            }
+
+            // Eemalda "Juuni"
+            kuude_list.Remove("Juuni");
+
+            // Muuda esimest elementi
+            if (kuude_list.Count > 0)
+                kuude_list[0] = "Veeel kuuu";
+
+            Console.WriteLine("--------------Kustutasime juuni-----------");
+
+            foreach (string kuu in kuude_list)
+            {
+                Console.WriteLine(kuu);
             }
         }
     }
